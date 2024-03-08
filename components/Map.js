@@ -141,7 +141,7 @@ export default function LubakMap({}) {
 				setIntensity(1);
 			}
 		} catch (err) {
-			console.log("Err!", err);
+			console.log("Error!", err);
 		}
 		setIsUpdating(false);
 	};
