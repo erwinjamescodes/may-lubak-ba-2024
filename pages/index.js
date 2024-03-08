@@ -40,7 +40,7 @@ export default function Home() {
 					href="/favicon.ico"
 				/>
 			</Head>
-			<div className="flex h-screen overflow-hidden">
+			<div className="flex h-dvh overflow-hidden">
 				<Sidebar />
 				<div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
 					<main>

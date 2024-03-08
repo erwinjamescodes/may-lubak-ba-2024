@@ -6,7 +6,6 @@ import { MapProvider } from "react-map-gl";
 Amplify.configure(config);
 
 export default function App({ Component, pageProps }) {
-	console.log(Amplify.configure(config));
 	return (
 		<MapProvider>
 			<Component {...pageProps} />
