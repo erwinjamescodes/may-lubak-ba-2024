@@ -97,6 +97,7 @@ const DisplayPins = ({
 														Edit Intensity and Status
 													</label>
 													<select
+														autoFocus={false}
 														onChange={(e) => setIntensity(e.target.value)}
 														className="px-3 py-2 rounded-md text-lg bg-gray-100">
 														<option value={1}>Minor</option>
