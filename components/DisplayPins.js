@@ -48,7 +48,7 @@ const DisplayPins = ({
 						.map((pin, index) => (
 							<div key={index}>
 								<Marker
-									key={pin._id}
+									key={pin.id}
 									longitude={pin.long}
 									latitude={pin.lat}
 									offsetLeft={-2.5 * viewport.zoom}
@@ -77,7 +77,7 @@ const DisplayPins = ({
 								</Marker>
 								{pin.id === currentPlaceId && (
 									<Popup
-										key={`popup-${pin._id}`}
+										key={`popup-${pin.id}`}
 										latitude={pin.lat}
 										longitude={pin.long}
 										closeButton={true}
@@ -97,7 +97,6 @@ const DisplayPins = ({
 														Edit Intensity and Status
 													</label>
 													<select
-														autoFocus={false}
 														onChange={(e) => setIntensity(e.target.value)}
 														className="px-3 py-2 rounded-md text-lg bg-gray-100">
 														<option value={1}>Minor</option>
