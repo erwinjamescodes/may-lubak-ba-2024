@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Loader = () => {
 	return (
-		<div className="flex justify-center items-center  h-[100vh] flex-col">
-			<div className=" h-[100vh] bg-container absolute"></div>
+		<div className="flex justify-center items-center  h-svh flex-col">
+			<div className=" h-svh bg-container absolute"></div>
 			<Image
 				src={Logo}
 				alt="Lubak Tracker Logo"

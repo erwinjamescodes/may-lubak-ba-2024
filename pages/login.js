@@ -7,8 +7,8 @@ import Router from "next/router";
 
 const login = () => {
 	return (
-		<div className="bg-white h-[100vh] w-[100%] flex items-center justify-center px-4 ">
-			<div className=" h-[100vh] bg-container absolute"></div>
+		<div className="bg-white h-svh w-[100%] flex items-center justify-center px-4 ">
+			<div className=" h-svh bg-container absolute"></div>
 			<div className="bg-white shadow-xl max-w-[600px] w-[100%] flex justify-center flex-col items-center rounded-md z-40 py-10">
 				<div className="flex flex-col items-center mb-4 ">
 					<Image
