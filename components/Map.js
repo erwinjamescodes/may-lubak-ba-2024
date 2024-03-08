@@ -172,16 +172,16 @@ export default function LubakMap({}) {
 
 	return (
 		<>
-			<main className=" w-[100%] h-[100vh] bg-white">
+			<main className=" w-[100%] h-svh bg-white">
 				<HeaderSearch mymap={mymap} />
-				<div className="map w-[100%] h-[100%]">
+				<div className="map w-[100%] h-svh">
 					{isFetchingPins ? (
 						<Loader />
 					) : (
 						<Map
 							id="mymap"
 							initialViewState={{ ...viewport }}
-							style={{ width: "100%", height: "100%" }}
+							// style={{ width: "100%", height: "100%" }}
 							mapStyle="mapbox://styles/mapbox/streets-v9"
 							mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_URL}
 							renderWorldCopies={false}
