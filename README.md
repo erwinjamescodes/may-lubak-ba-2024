@@ -1,3 +1,9 @@
+## May Lubak Ba?
+
+This project is a Pothole (Lubak) tracking application used to provide awareness to citizens and extract accountability from public officials. It promotes people participation in governance and encourages better delivery of public services.
+
+Application is deployed to AWS Amplify paired with serverless backend built with AWS Lambda, DynamoDB, API Gateway, and Node JS.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
